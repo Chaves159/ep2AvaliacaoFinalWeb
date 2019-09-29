@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Sistema de Avaliação</title>
+		<link rel="stylesheet" href="materialize/css/materialize.css">
+		<link rel="stylesheet" href="materialize/css/materialize.min.css">
+	</head>
+		<body onload= "start()">
+			<nav >
+			    <div class="nav-wrapper">
+			      
+			      <a class="brand-logo center">Sistema De Avaliação</a>
+		    	
+		    	</div>
+		  </nav>
+		  <div id="centralizar" >
+		  			  <p>Tempo Restante </p>
+						<div id="start"></div>
+		  </div>
+		  <br>
+		  <br>
+
+		<section class="container">
+			<nav>
+			    <div class="nav-wrapper">
+			      
+			      <h2 class="brand-logo center">Questões</h2>
+		   
+		    	</div>
+		  </nav> 
+		  <br>
+		  <br>
+		    
+		    <form>
+		        <div class="grupo>
+		            <label for="q1" class="Headingh5">Questão 1:</label>
+		            <input id="q1" name="q1" type="text" placeholder="Digite Sua Resposta Aqui!" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="q2" class="Headingh5">Questão 2:</label>
+		            <input id="q2" name="q2" type="text" placeholder="Digite Sua Resposta Aqui!" class="campo campo-medio">
+		        </div>
+		    
+		        <button class="btn  waves-effect waves-light" id="botao">Responder</button>
+		    </form>
+		</section>
+
+		<script src="js/relogio.js" ></script>
+
+		<br>
+		<br>
+		<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="brand-logo center">
+                <h5 class="white-text">Sistema De Avaliação</h5>
+            	<p>Este Sistema foi Desenvolvido para o Professor:Msc. Gustavo Coutinho.</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright" id="ajuste">
+            <div class="container">
+            © 2019 Copyright Text       
+            </div>
+          </div>
+        </footer>
+	</body>
+</html>
